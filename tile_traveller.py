@@ -2,7 +2,8 @@
     Use statemensts to move the user where he chooses.
     Print out where the user is, so he can move according to wich tile he is on.
     Winner tile is (3,1) and then Winner is printed
-'''
+    Eggert Kristmundsson var með mér
+'''''
 
 print("You can travel: (N)orth.")
 direction = input('Direction: ')

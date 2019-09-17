@@ -43,5 +43,6 @@ while True:
         break
     print(x,y)    
     direction =  input('Direction: ')
+    print("hallo")
     
 print('Victory!')

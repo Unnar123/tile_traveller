@@ -13,6 +13,51 @@ x=3
 y=3
 
 while True:
+    # (1,1)
+    if x == 1 and y == 1:
+        if direction == "n" or direction == "N":
+            y += 1
+        else:
+            print("Not a valid direction!")
+        print("You can travel: (N)orth or (E)ast or (S)outh.")
+
+    # (1,2)
+    if x == 1 and y == 2:
+        if direction == "n" or direction == "N":
+            y += 1
+        elif direction == "s" or direction == "S":
+            y -= 1
+        elif direction == "e" or direction == "E":
+            x += 1
+        else:
+            print("Not a valid direction!")
+        print
+    #(1,3)
+    if x == 1 and y == 3:
+        if direction == "e" or direction == "E":
+            x += 1
+        elif direction == "s" or direction == "S":
+            y -= 1
+        else: 
+            print("Not a valid direction!")
+    # (2,1)
+    if x == 2 and y == 1:
+        if direction == "n" or direction == "N":
+            y += 1
+        else: 
+            print("Not a valid direction!")
+    # (2,2)
+    if x == 2 and y == 2:
+        if direction == "w" or direction == "W":
+            x -= 1
+        if direction == "s" or direction == "S":
+            y -= 1
+        else:
+            print("Not a valid direction!")
+
+
+
+
     #Tile 2,3
     if x==2 and y==3:
         if direction == 'e' or direction == 'E':
